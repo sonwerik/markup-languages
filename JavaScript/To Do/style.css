@@ -78,7 +78,6 @@ input {
     border: solid 2px green;
     font-size: 1.5rem;
 }
-
 .task .checkTask:hover {
     background-color: green;
     color: white;
