@@ -8,7 +8,7 @@ align-items: center;
 
 #add-task-conteiner {
     width: 350px;
-    padding: 20px, 10px;
+    padding: 20px 10px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 3px;
@@ -40,7 +40,7 @@ input {
 
 #add-task.hover {
     background-color: rgb(0, 153, 255);
-    color: white,
+    color: white;
     
 }
 
@@ -90,7 +90,7 @@ input {
     font-size: 1.3rem;
 }
 
-.task .checkTask:hover {
+.task .deleteTask:hover {
     background-color: red;
     color: white;
 }
