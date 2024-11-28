@@ -29,7 +29,12 @@ addTask.addEventListener('click', function () {
     inputTask.value = "";
 
     checkButton.addEventListener('click', function () {
-        li.style.textDecoration = "line-through";
+        if (li.style.textDecoration === "line-through") {
+            li.style.textDecoration = "none";
+        } else {
+            li.style.textDecoration = "line-through";
+        }
+        checkButton.classList.toggle('completed');
     });
 
     deleteButton.addEventListener('click', function () {
