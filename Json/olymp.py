@@ -55,11 +55,11 @@ def translate():
         found = False
         for i in gods:
             if god.lower() == i.get("greek", "").lower():
-                print(i["greek"] + " en romà és " + i["roman"])
+                print(i["greek"] + " era conegut a Roma com a " + i["roman"])
                 found = True
                 break
             elif god.lower() == i.get("roman", "").lower():
-                print(god + " en romà és " + i["greek"])
+                print(god + " era conegut a Grècia com a " + i["greek"])
                 found = True
                 break
 
