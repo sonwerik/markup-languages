@@ -1,0 +1,30 @@
+{
+  "gods": [
+    { "greek": "Zeus", "roman": "Júpiter" },
+    { "greek": "Hera", "roman": "Juno" },
+    { "greek": "Poseidó", "roman": "Neptú" },
+    { "greek": "Ares", "roman": "Mart" },
+    { "greek": "Hermes", "roman": "Mercuri" },
+    { "greek": "Hefest", "roman": "Vulcà" },
+    { "greek": "Afrodita", "roman": "Venus" },
+    { "greek": "Atena", "roman": "Minerva" },
+    { "greek": "Apol·lo", "roman": "Apol·lo" },
+    { "greek": "Àrtemis", "roman": "Diana" },
+    { "greek": "Hèstia", "roman": "Vesta" },
+    { "greek": "Demèter", "roman": "Ceres" },
+    { "greek": "Dionís", "roman": "Bacus" },
+    { "greek": "Hades", "roman": "Plutó" },
+    { "greek": "Persèfone", "roman": "Prosèrpina" },
+    { "greek": "Hebe", "roman": "Juventes" },
+    { "greek": "Asclepi", "roman": "Esculapi" },
+    { "greek": "Eros", "roman": "Cupido" },
+    { "greek": "Pan", "roman": "Faune" },
+    { "greek": "Heracles", "roman": "Hèrcules" },
+    { "greek": "Cronos", "roman": "Saturn" },
+    { "greek": "Urà", "roman": "Caelus" },
+    { "greek": "Gea", "roman": "Terra" },
+    { "greek": "Èreb", "roman": "Scotus" },
+    { "greek": "Nix", "roman": "Nox" },
+    { "greek": "Caos", "roman": "Caos" }
+  ]
+}
