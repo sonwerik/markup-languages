@@ -1,5 +1,6 @@
 import json
 import os
+from colorama import Fore, Style
 
 with open("data/olymp.json", mode="r", encoding="utf-8") as f:
     data = json.load(f)
@@ -13,6 +14,7 @@ def menu():
         list_greek_names()
         list_roman_names()
         translate()
+
 
 def clear():
     # Per a Windows
@@ -55,11 +57,11 @@ def translate():
         found = False
         for i in gods:
             if god.lower() == i.get("greek", "").lower():
-                print(i["greek"] + " era conegut a Roma com a " + i["roman"])
+                print(Fore.CYAN + i["greek"] + Fore.RESET + " era conegut a Roma com a " + Fore.CYAN + i["roman"] + Fore.RESET)
                 found = True
                 break
             elif god.lower() == i.get("roman", "").lower():
-                print(god + " era conegut a Grècia com a " + i["greek"])
+                print(Fore.CYAN + i["roman"] + Fore.RESET + " era conegut a Grècia com a " + Fore.CYAN+  i["greek"] + Fore.RESET)
                 found = True
                 break
 
@@ -67,7 +69,6 @@ def translate():
             print("Déu no trobat.")
 
         input("\nPrem enter per cercar un altre déu...")
-        clear()
 
 
 menu()
