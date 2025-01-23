@@ -6,12 +6,12 @@ with open("data/products.json", mode="r", encoding="utf-8") as file:
     data = json.load(file)
 
 
-def info(data):
-    print(type(data))
-    print(data)
-    print(len(data["products"]))
-    print(len(data["products"][0]))
-    print(data.keys())
+def info(products_data):
+    print(type(products_data))
+    print(products_data)
+    print(len(products_data["products"]))
+    print(len(products_data["products"][0]))
+    print(products_data.keys())
 
 info(data)
 
