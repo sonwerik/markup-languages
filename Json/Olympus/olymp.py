@@ -51,7 +51,6 @@ def list_roman_names():
 
 def translate():
     while True:
-
         god = input("\nQuin nom vols traduir? ")
 
         found = False
