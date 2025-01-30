@@ -1,14 +1,16 @@
 import json
 
-def read_db(file_path, field) -> dict:
-    print(file_path)
-    with open(file_path, mode="r", encoding="utf-8") as f:
-        data = json.load(f)
+def read_db(data_path,field):
+    with open(data_path, mode="r", encoding="utf-8") as file:
+        data = json.load(file)
     items_dict = {item["id"] : item for item in data[field]}
     return items_dict
 
+def read_db_list(data_path,field):
+    with open(data_path, mode="r", encoding="utf-8") as file:
+        data = json.load(file)
+    return data[field]
 
-def save_db(file_path, data):
-    data = {"products": list(data.values())}
-    with open(file_path, mode="w", encoding="utf-8") as f:
-        json.dump(data, f, indent=4)
+
+def save_db(data_path, data):
+    pass
