@@ -1,4 +1,4 @@
-from crud.crud import read_all, read_item, create, delete, update, avg_price, count_category, avg_rating, max_stock, \
+from crud import read_all, read_item, create, delete, update, avg_price, count_category, avg_rating, max_stock, \
     low_stock, reviews, reviews_rating, count_tags
 
 # print(read_all())
