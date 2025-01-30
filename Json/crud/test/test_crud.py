@@ -1,6 +1,9 @@
 from crud.crud import read_all, read_item, create, delete, update, avg_price, count_category, avg_rating, max_stock, \
     low_stock, reviews, reviews_rating, count_tags
 
+# print(read_all())
+# print(read_item(1))
+
 new_product = {
     "title": "Nuevo Item",
     "description": "New description",
@@ -17,8 +20,6 @@ update_product = {
 }
 
 print(read_all())
-
-print(read_item(new_product))
 
 print(create(new_product))
 
